@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background"
+    android:orientation="vertical"
+    tools:context="com.example.odeh.benue.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <!-- Words category -->
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/category_phrases">
+                <TextView
+                    android:id="@+id/words"
+                    style="@style/CategoryStyle"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:text="@string/words_category" />
+            </FrameLayout>
+
+            <!-- Numbers category -->
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/category_numbers">
+                <TextView
+                    android:id="@+id/numbers"
+                    style="@style/CategoryStyle"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:text="@string/numbers_category" />
+            </FrameLayout>
+
+            <!-- Family category -->
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/category_family">
+                <TextView
+                    android:id="@+id/family"
+                    style="@style/CategoryStyle"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:text="@string/family_category" />
+            </FrameLayout>
+
+            <!-- Colors category -->
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/category_colors">
+                <TextView
+                    android:id="@+id/colors"
+                    style="@style/CategoryStyle"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:text="@string/colors_category" />
+            </FrameLayout>
+
+            <!-- Phrases category -->
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/category_phrases">
+                <TextView
+                    android:id="@+id/phrases"
+                    style="@style/CategoryStyle"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:text="@string/phrases_category" />
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

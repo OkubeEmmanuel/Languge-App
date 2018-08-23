@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Benue</string>
+    <string name="tiv">Tiv</string>
+    <string name="idoma">Idoma</string>
+    <string name="family_category">Family</string>
+    <string name="numbers_category">Numbers</string>
+    <string name="phrases_category">Phrases</string>
+    <string name="colors_category">Colours</string>
+    <string name="words_category">Words</string>
+    <string name="db_category">Launch DB</string>
+</resources>
